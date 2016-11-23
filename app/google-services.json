@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "832765728010",
+    "firebase_url": "https://elixir-95d35.firebaseio.com",
+    "project_id": "elixir-95d35",
+    "storage_bucket": "elixir-95d35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832765728010:android:6997bb016cefe893",
+        "android_client_info": {
+          "package_name": "project.indietune.elixir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832765728010-ali8ha27vtkbv9vc3k30adq9e4bjeit8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.indietune.elixir",
+            "certificate_hash": "C67DE89E62F2A0EED1BF8E5F337FAC96E4EA6436"
+          }
+        },
+        {
+          "client_id": "832765728010-l12vjn3ejlr75hl8qphu4s1ijnipe1p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD780r7vCMCbRsWQ2bBr1fMwJSESsadUTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832765728010-l12vjn3ejlr75hl8qphu4s1ijnipe1p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
