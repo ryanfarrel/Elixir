@@ -12,27 +12,49 @@
     tools:context="project.indietune.elixir.MainActivity">
 
 
+
     <TextView
         android:id="@+id/textView"
+        style="@style/Base.TextAppearance.AppCompat.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Get Inside" />
+        android:text="Get Inside"
+        android:textSize="24dp" />
 
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="It&apos;s Elixir by IndieTune" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:hint="Email"
         android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
 
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:hint="Password"
         android:inputType="textPassword" />
-
+    </android.support.design.widget.TextInputLayout>
     <Button
         android:id="@+id/buttonContinue"
         android:layout_width="match_parent"
