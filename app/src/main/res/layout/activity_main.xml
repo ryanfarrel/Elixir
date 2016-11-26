@@ -68,7 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="38dp"
-        android:text="Don&apos;t have an account?"
+        android:text="Easily get inside with Google"
         android:textAlignment="center"
         android:textStyle="italic" />
 
