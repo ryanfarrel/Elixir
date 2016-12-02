@@ -51,25 +51,37 @@
             android:paddingTop="10dp"
             android:textColor="#FFFFFF" />
 
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Current Topics" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp" />
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextComment"
+                android:id="@+id/editTextTopic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Add a comment"
+                android:hint="Add a topic comment"
                 android:paddingLeft="10dp" />
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:id="@+id/buttonComment"
+            android:id="@+id/buttonTopic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:paddingLeft="10dp"
-            android:text="Add comment" />
+            android:text="Add topic" />
 
     </LinearLayout>
 </ScrollView>
